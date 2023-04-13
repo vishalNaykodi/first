@@ -1,0 +1,21 @@
+web site : 
+
+web application : intractive HTML,CSS,React
+(do somthing get something)
+
+
+HTML : basic building blocks  VS Code:visial stude code 
+CSS  : cloure, size
+JS   : how to react 
+
+https://code.visualstudio.com/
+
+<body tage inforamtion visiable for web app>
+
+C:\Users\Vishal\AppData\Local\Programs\Microsoft VS Code
+
+
+HTML Elements:
+elements is building block of application <></>: elements , tages(<)
+block line elements: total Screen
+Inline Elements : 

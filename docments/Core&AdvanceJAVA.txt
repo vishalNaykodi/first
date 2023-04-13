@@ -1,0 +1,92 @@
+Good morning, Sir/Ma'am, 
+I want to tell you about myself because I believe this is an authorized place to expose my skills and knwolage. 
+
+My name is Vishal, and I am from Pune. I have recently attained a bachelor’s degree in Computer Application from the University of Pune.
+
+earlier in my school life, I have always been interested in computer and technology. So I recognized my interest in problem-solving and have always wanted to be an independent developer.
+
+During my tenure at my college, I was a part of the  
+“One Day State Level Webinar on Entrepreneurship Development and E-commerce” 
+I have learned about JAVA programming and its applications in real-life scenarios. That why according to me 
+"I am proficient in my code and DSA Skills".
+In my free time, I enjoy spending time with family, and friends and Enjoying variants of Food that make me happy. One of those things is hiking!
+So this is me (a little Smiling) …..
+
+Encapsulation
+It is a wrapping of data member(variable) and member function(method) into single unit.
+Class is also a kind of encapsulation
+Setter Methods Getter methods
+Advantage : data hiding, control on access .
+
+
+Inheritance : IS-A relation , extract key word , super and derived class
+Inheritance will create a parent and child relation between two classes.
+Inheriting the property (non-private Variables and methods) of one class into another class which is also known as Parent and child.
+single Multilevel Hirachical indirectly multiple hybride
+Advantage : Reusability , Extensibility
+
+Polymorphism
+One object can be behave in a multiple form.
+Compile time polymorphism 
+The method call resolves at the time of compilation and same will be followed at the execution. eg : Overloading
+Runtime polymorphism 
+The method call is resolve at the time of execution or runtime of the program rg. Overriding 
+
+
+Abstraction
+Hiding the complexity and display only the important details/function is called abstraction. 
+Achieve by 
+Abstract class :Abstract class is a way using which you can achieve the 0-100% abstraction. key-abstract , create obj not use referance
+Interface :Interface is use to achieve full abstraction 100%
+methods: public and abstract. Variables: public static final 
+One interface can extends another interface. obj not created bt use as refrence
+
+
+Overloading
+method name must be same and input parameter must be different
+parameter list : Differnce in data type,number,Sequence
+done in same class or sub class, return type and Access modifier may sm/df
+Advantage :Improve the Readability of the code, easyto access functionality 
+
+Overriding 
+method name must be same and input parameter must be same
+done in Subclass , return data type must be same if it is primitive or void) 
+Access modifier must be same 
+
+
+Exception Handling : program execution will terminate abnormally.
+handle exception during the program execution help us to avoid the program termination.
+try:block can write a statement which throwexception.
+catch:block to handle/catch exception thrown from try block. 
+finally:block use to close the resources and take guarantee of execution.
+throw:keyword use to raise exception manually.
+throws:keyword use to propagate the exception outside methods. 
+
+
+Multi-Threading : Thread Improve Performance of application
+thread created by JVM known as main thread. 
+Every thread has own memory known as call by stack (Stack Memory). Every thread share the Heap memory
+Cration : Thread class , Runnable Interface 
+Step: create new class, Impliment/extends Runnnable Interface, Oveeride run mthd assign task,make it ready to using start method
+
+Collection Framework : Create group of Object(same or different).
+Based on DS.Ds is implimated internally collection class. 
+Interface and class from java.util.pakage type: List,Q,set
+Methods:add,remove,contains,size,clear,isEmpty,addAll,iterator(1by1obj)
+
+List Interface: different (datatype),duplicate object,Dynamic size.
+ArrayList: based on index maintains insertion order,order and not sorted
+Vector: methods r synchronized,Thread safe, slower than Array list
+LinkedList:Implimention of list,q,de q. base on Dobly linklist,unsort,fifo&lifo
+
+Set Interface:storeunique element,no duplicate value,dynamicsize,ntindexbase
+Hashset:unorder,unsorted,not mentain insertion order,#code()&equals(unicobj)
+LinkedHashset:extends hashset,order&unsorted,insertion order
+Treeset:based on balancetree,sortedset.
+
+Map:nt clction,inherite property of collection,key(unique)&value(Dublict)
+pair=entry,
+HashMap:base on hashing alog.,unsorted unoreder,1 null key multiple null value
+HashTable:base on hashing alog.,not store null keyvalue,synchronized,objthreadseaf
+LinkedHashmap:extends Hashmap,key unique value dublict,based on hashmap&dublelinklist
+treeMap:implements NavigableMap,SortedMap&Map interfac,sorted by key,balance tree also0
